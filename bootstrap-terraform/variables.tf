@@ -8,7 +8,7 @@ variable "gcp_region" {
   description = "GCP region"
 }
 
-variable "gcp_project" {
+variable "project_id" {
   type        = string
   description = "GCP project name"
 }

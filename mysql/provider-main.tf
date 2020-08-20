@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 0.12"
   backend "gcs" {
     bucket      = "archtek-wordpress-tfstate"
-    prefix      = "archtek-wordpress-gke-cluster"
+    prefix      = "archtek-wordpress-postgres-instance"
     credentials = "../archtek-wordpress-svc.json"
   }
 }
